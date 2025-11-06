@@ -172,7 +172,7 @@ class _PlanDetailsScreenState extends State<PlanDetailsScreen> {
             ),
           ),
           const SizedBox(height: 20),
-          if (widget.plan.targetAmount > 0) ..[
+          if (widget.plan.targetAmount > 0) ...[
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(16),

@@ -34,7 +34,7 @@ class _CreatePlanScreenState extends State<CreatePlanScreen> {
         id: DateTime.now().millisecondsSinceEpoch.toString(),
         name: _nameController.text,
         investmentAmount: double.parse(_amountController.text),
-        targetAmount: double.parse(_targetController.text),
+        targetAmount: _targetController.text.isEmpty ? 0 : double.parse(_targetController.text),
         frequency: _frequency,
         duration: _duration,
         autoInvest: _autoInvest,

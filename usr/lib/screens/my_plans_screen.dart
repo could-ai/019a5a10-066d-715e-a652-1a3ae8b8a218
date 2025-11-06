@@ -178,7 +178,7 @@ class _PlanCard extends StatelessWidget {
                   ),
                 ],
               ),
-              if (plan.targetAmount > 0) ..[
+              if (plan.targetAmount > 0) ...[
                 const SizedBox(height: 16),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
